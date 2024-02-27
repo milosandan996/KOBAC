@@ -1,0 +1,42 @@
+#lead-services{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    div.container{
+        h2{
+            margin-bottom: 4rem;
+        }
+        article{
+            position: relative;
+            padding: 5rem !important;
+            i{
+                color: $yellow;
+                font-size: 4rem;
+                position: absolute;
+                right: 5rem;
+            }
+            h4{
+                margin-bottom: 3rem;
+            }
+            p{
+                margin-bottom: 2rem;
+            }
+            a{
+                border-radius: 2rem;
+                padding: 7px;
+                background-color: $yellow;
+                color: $blue;
+                font-weight: 600;
+                &:hover{
+                    background-color: $red;
+                    color: $yellow;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width: 578px){
+    i{
+        left: 0rem;
+    }
+}

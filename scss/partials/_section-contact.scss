@@ -1,0 +1,62 @@
+#section-kontak{
+    margin: 2rem;
+
+    .three{
+        margin-bottom: 10rem;
+        a{
+            color: whitesmoke;
+            font-size: 2rem;
+        }
+    }
+
+}
+#forma{
+    padding: 7rem;
+    background-color: whitesmoke;
+    h2{
+        color: $pigeon;
+    }
+    .contact-form {
+        width: 100%;
+        max-width: 500px; /* Prilagodite maksimalnu širinu forme */
+        margin: auto;
+        padding: 20px;
+        background-color: #3F6184; /* pigeon boja za pozadinu */
+        border: 1px solid #003A6D; /* blue boja za okvir */
+        border-radius: 5px;
+        color: #003A6D; /* Tekst u blue boji */
+    }
+
+    .contact-form input, .contact-form select, .contact-form textarea {
+        width: 100%;
+        margin-bottom: 15px;
+        padding: 15px; /* Veća polja za unos */
+        border: 2px solid #003A6D; /* blue boja za okvir */
+        border-radius: 4px;
+        font-size: 16px; /* Veća veličina teksta */
+        color: #003A6D; /* Tekst u blue boji */
+    }
+
+    .contact-form input::placeholder, .contact-form textarea::placeholder {
+        color: #003A6D; /* Tekst placeholdera u blue boji */
+        font-size: 14px; /* Veća veličina teksta za placeholder */
+        opacity: 1; /* Učini placeholder potpuno vidljivim */
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 10px;
+        background-color: #003A6D; /* blue boja za dugme */
+        color: #FDFD96; /* Tekst dugmeta u yellow boji */
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px; /* Veća veličina teksta za dugme */
+    }
+
+    .contact-form button:hover {
+        background-color: #FDFD96; /* Promena na yellow boju pri prelasku miša */
+        color: #003A6D; /* Tekst dugmeta u blue boji */
+    }
+
+}

@@ -1,0 +1,22 @@
+#section-exam{
+    background-color: whitesmoke;
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    div.container{
+
+        h2{
+            color: $pigeon;
+            font-weight: 500;
+            margin-bottom: 4rem;
+        }
+        div.row{
+            p{
+                color: $pigeon;
+            }
+            table{
+                color: $blue;
+                font-size: 2rem;
+            }
+        }
+    }
+}

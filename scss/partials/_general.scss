@@ -1,0 +1,90 @@
+
+$aFont            :'Josefin Sans', sans-serif;
+$pFont            : 'Josefin Sans', sans-serif;
+$headingFont      : 'Cinzel', serif;
+$backgroundColor  : linear-gradient(45deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+$backgroundHover  : linear-gradient(45deg, #FCF6BA, #BF953F, #B38728,  #AA771C, #FBF5B7);
+$headerBGC        : whitesmoke;
+$footerBGC        : whitesmoke;
+$red              : #AF0000;
+$blue             : #003A6D;
+$pigeon           : #3F6184;
+$yellow           : #FDFD96;
+
+body {
+    margin: 0;
+    color: whitesmoke;
+    background: linear-gradient(to right, rgba(0, 58, 109,0.96), rgba(0, 58, 109,0.96)),url('../images/bodyBG2.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+img{
+    max-width: 100%;
+}
+html{
+    font-size: 10px;
+    // 1 rem
+}
+html p{
+    font-size: 1.9rem !important;
+    font-family: $pFont;
+}
+html a{
+    font-size: 1.6rem;
+    font-family: $aFont;
+    text-decoration: none !important;
+}
+h1{
+    font-family: $headingFont;
+    font-size: 3.5rem;
+    font-weight: 800;
+    color: $yellow;
+}
+h2{
+    font-family: $headingFont;
+    font-size: 3rem;
+    font-weight: 800;
+    color: $yellow;
+}
+h3{
+    font-family: $headingFont;
+    font-size: 2.7rem;
+    font-weight: 800;
+    color: $yellow;
+}
+h4{
+    font-family: $headingFont;
+    font-size: 2.3rem;
+    font-weight: 800;
+    color: $yellow;
+}
+h5{
+    font-family: $headingFont;
+}
+h6{
+    font-family: $headingFont;
+}
+.mb-6{
+    margin-bottom: 5rem;
+}
+.mt-6{
+    margin-top: 5rem;
+}
+.mr-6{
+    margin-right: 5rem;
+}
+.ml-6{
+    margin-left: 5rem;
+}
+i{
+    color: $yellow;
+}
+#headerAnimation{
+    i{
+        color: $blue !important;
+    }
+}
+.row > * {
+    padding: 0 !important;
+}

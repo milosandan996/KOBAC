@@ -1,0 +1,245 @@
+#section-welcome{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 20rem;
+        font-size: 5rem;
+        color: $yellow;
+    }
+}
+
+.inner-header {
+    height:65vh;
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.waves {
+    position:relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    max-height: 20rem;
+    top: -7rem;
+    height:8rem;
+    min-height:8rem;
+
+}
+
+/* Animation */
+
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)infinite;
+}
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px,0,0);
+    }
+    100% {
+        transform: translate3d(85px,0,0);
+    }
+}
+@media(min-width:768px){
+    .waves {
+        position:relative;
+        width: 100%;
+        height:15vh;
+        margin-bottom:-7px;
+        min-height:15rem;
+        max-height:20rem;
+        top: -12rem;
+    }
+    #section-welcome{
+        h1{
+            padding-top: 15rem;
+            font-size: 9rem;
+            color: $yellow;
+        }
+    }
+}
+///////////////////////////////////o nama///////////////////////////////////////
+#section-o-nama{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 20rem;
+        font-size: 9rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-o-nama{
+        h1{
+            padding-top: 18rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+//////////////////////////////////OBUKA/////////////////////////////////////////
+#section-obuka{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 20rem;
+        font-size: 8rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-obuka{
+        h1{
+            padding-top: 18rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+/////////////////////////////////NOVI TESTOVI///////////////////////////////////
+#section-testovi{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 20rem;
+        font-size: 8rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-testovi{
+        h1{
+            padding-top: 18rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+////////////////////////ISPITNI ZADACI PRAKTICNOG ISPITA////////////////////////
+#section-ispitni{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 18rem;
+        font-size: 5rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-ispitni{
+        h1{
+            padding-top: 10rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+//////////////////////////////SAOBRACAJNI ZNACI////////////////////////////////
+#section-znaci{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 27rem;
+        font-size: 5rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-znaci{
+        h1{
+            padding-top: 20rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+//////////////////////////////////CENOVNIK//////////////////////////////////////
+#section-cenovnik{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 28rem;
+        font-size: 5rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-cenovnik{
+        h1{
+            padding-top: 19rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+//////////////////////////////VOZNI PARK////////////////////////////////////////
+#section-auta{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 25rem;
+        font-size: 7rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-auta{
+        h1{
+            padding-top: 20rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}
+/////////////////////////////////KONTAKT////////////////////////////////////////
+#section-kontakt{
+    background: linear-gradient(to right, rgba(0, 0, 0,0.7), rgba(0, 0, 0,0.7)),url('../images/sectionBG.webp');
+    background-size: cover;
+    background-position: center;
+    h1{
+        padding-top: 27rem;
+        font-size: 7rem;
+        color: $yellow;
+    }
+}
+
+@media(min-width:768px){
+    #section-kontakt{
+        h1{
+            padding-top: 20rem;
+            font-size: 11rem;
+            color: $yellow;
+        }
+    }
+}

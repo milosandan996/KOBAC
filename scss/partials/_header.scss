@@ -1,0 +1,158 @@
+
+#top{
+    a{
+        .logoHeader{
+            height: 9rem;
+            margin-top: 1rem;
+        }
+    }
+    aside{
+        a{
+            i{
+                font-size: 2rem;
+            }
+            color: $blue;
+            font-size: 1.7rem;
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+    button{
+        border: 2px solid $red;
+        border-radius: 1rem;
+        padding: 7px;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        span{
+            display: block;
+            height: 3px;
+            width: 3rem;
+            background-color: $red;
+            margin-bottom: 6px;
+            &:last-of-type{
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+}
+.navbar-brand{
+    margin-right: 0px !important;
+}
+.navbar-toggler{
+    display: inline-block;
+}
+@media(min-width:992px){
+    .header-contant{
+        .navbar-toggler{
+            display: none;
+        }
+    }
+}
+@media(max-width:992px){
+    aside{
+        display: none;
+    }
+    .logoHeader{
+        margin-left: 2rem;
+    }
+    .dropdown-toggle::after {
+        margin-left: auto;
+    }
+}
+#top{
+    position: relative;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+    color: $blue !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $blue;
+}
+#top{
+    li{
+        a{
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            font-family: $headingFont !important;
+            color: $blue;
+            &:hover{
+                color: $blue;
+            }
+        }
+    }
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 0px;
+}
+li > a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+li > a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+}
+li > a:hover::after{
+    width: 100%;
+    background: $blue;
+    border-radius: 5px;
+}
+li.active > a::after{
+    width: 100%;
+    background: $blue;
+    border-radius: 5px;
+}
+
+#top{
+    width: 100%;
+    background-color: $headerBGC;
+}
+
+#top.show{
+    position: fixed;
+    z-index: 1000;
+    top: 0; /* Prikaz menija na vrhu ekrana */
+    background-color: $headerBGC;
+    width: 100%;
+}
+
+#top.show #top{
+    margin: 1rem !important;
+}
+
+.dropdown-toggle::after{
+    display: block;
+}
+
+.dropdown-menu{
+    li{
+        display: block;
+        padding: 1rem;
+    }
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0.0rem;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+    z-index: 100;
+}
+
+
+
+
+
+
